@@ -9,17 +9,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/MyBase" />
-            <option value="$PROJECT_DIR$/MyContainer" />
             <option value="$PROJECT_DIR$/android-gradle-plugin" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/baseprotocol" />
             <option value="$PROJECT_DIR$/bridge-compiler" />
             <option value="$PROJECT_DIR$/library/library-gilde" />
             <option value="$PROJECT_DIR$/library/library-network" />
-            <option value="$PROJECT_DIR$/module/Home-Module" />
-            <option value="$PROJECT_DIR$/module/Login-module" />
-            <option value="$PROJECT_DIR$/module/Shop-Module" />
+            <option value="$PROJECT_DIR$/router" />
             <option value="$PROJECT_DIR$/zhujie" />
           </set>
         </option>

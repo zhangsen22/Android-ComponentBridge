@@ -21,6 +21,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="Android-ComponentBridge.Home-Module" target="11" />
+      <module name="Android-ComponentBridge.Login-module" target="11" />
+      <module name="Android-ComponentBridge.MyBase" target="11" />
+      <module name="Android-ComponentBridge.MyContainer" target="11" />
+      <module name="Android-ComponentBridge.Shop-Module" target="11" />
       <module name="MyTest.app" target="11" />
       <module name="MyTest.baseprotocol" target="11" />
       <module name="MyTest.bridge-compiler" target="11" />
