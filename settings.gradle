@@ -1,0 +1,23 @@
+rootProject.name = "Android-ComponentBridge"
+include ':app'
+include ':MyBase'
+include ':MyContainer'
+
+include ':library-gilde'
+project(':library-gilde').projectDir = new File('library/library-gilde')
+include ':library-network'
+project(':library-network').projectDir = new File('library/library-network')
+
+include ':Login-module'
+project(':Login-module').projectDir = new File('module/Login-module')
+include ':Home-Module'
+project(':Home-Module').projectDir = new File('module/Home-Module')
+include ':Shop-Module'
+project(':Shop-Module').projectDir = new File('module/Shop-Module')
+
+include ':baseprotocol'
+
+//include ':bridge-annotation'
+include ':bridge-compiler'
+include ':android-gradle-plugin'
+include ':zhujie'

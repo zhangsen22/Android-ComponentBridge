@@ -1,0 +1,28 @@
+apply plugin: 'java-library'
+apply plugin: 'maven-publish'
+apply plugin: 'maven'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+
+dependencies {
+}
+
+
+/**
+ * mevenlocal方式
+ */
+uploadArchives {
+    repositories.mavenDeployer {
+        repository(url: uri(rootProject.mavenUrl))
+        pom.project {
+            groupId rootProject.groupId
+            artifactId rootProject.artifactId_bridge_zhujie
+            version rootProject.version
+        }
+    }
+}
+
